@@ -5,6 +5,27 @@ EditorUserSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 4
   m_ConfigSettings:
+    RecentlyUsedScenePath-0:
+      value: 2242470311464652191d09270a705b5f1701193e2d3a192329225220e3ed2434e7f409eaeb352a387652b703022b0d33f0050d12c91b0b191003f81a14ed032c02c415d516cd201fc71609ca820ed2e6dbd3c7a588b3d8decbd3acf0fbf4f7c7e5f0b7faa7ade8c5b8bcc1a2aecfd7c8c4f5b4c8c3d3cd89afdcd8c7a7
+      flags: 0
+    RecentlyUsedScenePath-1:
+      value: 2242470311464652191d09270a705b5f1701193e2d3a192329225220e3ed2434e7f409eaeb352a387652ba03073f132bfd050702e503350a070fe90f03c003121cd514c025cb1313de1d53ddce18dfe6c69984bfe7e8e6cacad0affcfde3e6c7f4e7a4efabbac3d3aba2eebdaafdc4c8cedfb38ad9c8c0d3a3
+      flags: 0
+    RecentlyUsedScenePath-2:
+      value: 2242470311464652191d09270a705b5f1701193e2d3a192329225220e3ed2434e7f409eaeb352a387652be03033b152bfb040e34e51f0b19050bf93102fe1d031dc027c616c70a18840a1fcbc318c2ac8587ebedddfff3d1d0d89fe1e0f1fcecf0f59ae8aba5ecccaf90fdbda0d7c38ad4c4bed0d5
+      flags: 0
+    RecentlyUsedScenePath-3:
+      value: 2242470311464652191d09270a705b5f1701193e2d3a192329225220e3ed2434e7f409eaeb352a387652bf0305320d00e10b041bfa0e19341202f21b15b0031014cb1dd655984f23ca1510f1de1cdcf3d9d3c7d5dbe7e8cdda91b5fcfde4f7
+      flags: 0
+    RecentlyUsedScenePath-4:
+      value: 2242470311464652191d09270a705b5f1701193e2d3a192329225220e3ed2434e7f409eaeb352a387652b803022b0d33f0050d12c90c0f1f0507f3092eec040110d11dc125db1e11db1519f1ce11def6d199c7e9dde5e2cb918ff7cdf2e5e2f4f7fea1e295aff9d4bea6f0b690d1d3c5d3deb2c0f3d5c8caaaded4ecbddfddc6dd9890d8d093c1
+      flags: 0
+    RecentlyUsedScenePath-5:
+      value: 2242470311464652191d09270a705b5f1701193e2d3a192329225220e3ed2434e7f409eaeb352a387652b603022b0d33f0050d12c90e121b1e1ce93102fe1d031dc027c616c70a18840a1fcbc318c2ac858febeccde7ebdad1dbb9cdf1e8fef7e7e59ae8aba5ecccaf90fdbda0d7c38ad4c4bed0d5
+      flags: 0
+    RecentlyUsedScenePath-6:
+      value: 22424703114646680e0b0227036c7a1d13051f2f623d28393930
+      flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0
@@ -15,5 +36,7 @@ EditorUserSettings:
   m_SemanticMergeMode: 2
   m_VCShowFailedCheckout: 1
   m_VCOverwriteFailedCheckoutAssets: 1
-  m_VCOverlayIcons: 1
+  m_VCProjectOverlayIcons: 1
+  m_VCHierarchyOverlayIcons: 1
+  m_VCOtherOverlayIcons: 1
   m_VCAllowAsyncUpdate: 0

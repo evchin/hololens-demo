@@ -1,19 +1,19 @@
 fileFormatVersion: 2
 guid: fea29429b97dbb14b97820f56c74060a
 ScriptedImporter:
-  fileIDToRecycleName:
-    100000: main/glTF Scene AvocadoCustomAttr
-    100002: main/glTF Scene AvocadoCustomAttr/Avocado
-    400000: main/glTF Scene AvocadoCustomAttr/Transform
-    400002: main/glTF Scene AvocadoCustomAttr/Avocado/Transform
-    2100000: AvocadoMaterial
-    2300000: main/glTF Scene AvocadoCustomAttr/Avocado/MeshRenderer
-    3300000: main/glTF Scene AvocadoCustomAttr/Avocado/MeshFilter
-    4300000: Avocado
-    11400000: glTF data
-    100100000: main
+  internalIDToNameTable: []
   externalObjects: {}
+  serializedVersion: 2
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-  script: {fileID: 11500000, guid: 8f83316e73954ae4fa56b79705605b45, type: 3}
+  script: {fileID: 11500000, guid: 1fa4dafe23771ae498589f7f7c22c974, type: 3}
+  importSettings:
+    materials: 1
+    shaderOverrides:
+      metallic: {fileID: 4800000, guid: 057d08f5d01be134593d0fe0e40c1759, type: 3}
+      metallicBlend: {fileID: 4800000, guid: 7258d825fa9aac6439f21eb173b880c6, type: 3}
+      specular: {fileID: 4800000, guid: d28fc76bfd3057e4c8f1c6f0b91590c8, type: 3}
+      specularBlend: {fileID: 4800000, guid: 475158e3052e5c4488fa32f8df9d7be7, type: 3}
+    useLegacyClips: 0
+    interpolationMode: -1

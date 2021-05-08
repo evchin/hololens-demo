@@ -1,0 +1,1750 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.928; Version 2004; 64bit' Language: 'en' Physical Memory: 8037 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ecwin/OneDrive/Desktop/Hololens Demo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56475
+Successfully changed project path to: C:/Users/ecwin/OneDrive/Desktop/Hololens Demo
+C:/Users/ecwin/OneDrive/Desktop/Hololens Demo
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 457.71 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 4.43 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ecwin/OneDrive/Desktop/Hololens Demo/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   25.20.100.6578
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004111 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 66.28 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.457 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013062 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62.30 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.726 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.2 MB.
+System memory in use after: 162.3 MB.
+
+Unloading 2184 unused Assets to reduce memory usage. Loaded Objects now: 3314.
+Total: 14.566500 ms (FindLiveObjects: 0.787800 ms CreateObjectMapping: 0.339000 ms MarkObjects: 2.585400 ms  DeleteObjects: 10.852400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(c36f7bec413441a41acf96cf77b5b753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(c36f7bec413441a41acf96cf77b5b753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055560eb62eebf00299d16cd409beb85') in 0.051810 seconds
+  Import took 0.058405 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015696 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.052 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.89 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.9 MB.
+System memory in use after: 163.0 MB.
+
+Unloading 2416 unused Assets to reduce memory usage. Loaded Objects now: 3318.
+Total: 7.983200 ms (FindLiveObjects: 0.587100 ms CreateObjectMapping: 0.334800 ms MarkObjects: 2.072000 ms  DeleteObjects: 4.987700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020254 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.052 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 3.19 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 3176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.0 MB.
+System memory in use after: 163.2 MB.
+
+Unloading 2416 unused Assets to reduce memory usage. Loaded Objects now: 3322.
+Total: 42.448100 ms (FindLiveObjects: 1.845100 ms CreateObjectMapping: 0.746100 ms MarkObjects: 19.488600 ms  DeleteObjects: 20.364900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 953.005465 seconds.
+  path: Assets/Plugins/Newtonsoft Json/Runtime/Newtonsoft.Json.dll
+  artifactKey: Guid(4e86fade557fa6f499246cb84ef7d0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Newtonsoft Json/Runtime/Newtonsoft.Json.dll using Guid(4e86fade557fa6f499246cb84ef7d0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9757d7c20d2c8d4f5c95067d937a56') in 0.337483 seconds
+  Import took 0.628133 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.451790 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.846 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.7 MB.
+System memory in use after: 171.2 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3564.
+Total: 11.042400 ms (FindLiveObjects: 0.656700 ms CreateObjectMapping: 0.429200 ms MarkObjects: 2.237700 ms  DeleteObjects: 7.717100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.850333 seconds.
+  path: Assets/itseez3d/avatar_sdk
+  artifactKey: Guid(f5cfc51584aafc242ad4acfd9e41f3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk using Guid(f5cfc51584aafc242ad4acfd9e41f3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b711b70fbf7391b9d387d58b99f6ec5') in 0.018646 seconds
+  Import took 0.027651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.681388 seconds.
+  path: Assets/itseez3d/avatar_sdk/sdk_cloud
+  artifactKey: Guid(afad73ab5a99d6d438a9f2d0142459da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/sdk_cloud using Guid(afad73ab5a99d6d438a9f2d0142459da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702543d572f2f670107e7894dd7ea041') in 0.009274 seconds
+  Import took 0.016762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.258373 seconds.
+  path: Assets/itseez3d/avatar_sdk/sdk_cloud/scripts
+  artifactKey: Guid(56769536fdb5634488a932d01561a7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/sdk_cloud/scripts using Guid(56769536fdb5634488a932d01561a7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3354f9d11b6da296fdd5976af28ffd31') in 0.009740 seconds
+  Import took 0.016289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.225053 seconds.
+  path: Assets/itseez3d/avatar_sdk/sdk_cloud/org.khronos.unitygltf
+  artifactKey: Guid(6be0c91a1ee939740bb915e9549aa188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/sdk_cloud/org.khronos.unitygltf using Guid(6be0c91a1ee939740bb915e9549aa188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c013b377700a5875810bd13a55e9b0e5') in 0.010198 seconds
+  Import took 0.016709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.509020 seconds.
+  path: Assets/itseez3d/avatar_sdk/sdk_cloud/Plugins
+  artifactKey: Guid(90699a8d0d2633d4a9abf934c1ee2be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/sdk_cloud/Plugins using Guid(90699a8d0d2633d4a9abf934c1ee2be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9f1d97a93421fba6b442f50ff303c9') in 0.010075 seconds
+  Import took 0.016909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.169089 seconds.
+  path: Assets/itseez3d/avatar_sdk/samples_cloud
+  artifactKey: Guid(ec2a7d9b1fc5f9845b2e868ebacddcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/samples_cloud using Guid(ec2a7d9b1fc5f9845b2e868ebacddcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ed5eff10328c04b36c9ddc3ff7063c') in 0.010138 seconds
+  Import took 0.017468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.721539 seconds.
+  path: Assets/itseez3d/avatar_sdk/samples_core
+  artifactKey: Guid(bcf6087d8e0ce084894124480fdc378e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/samples_core using Guid(bcf6087d8e0ce084894124480fdc378e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2eedd754af59abcbf661b6d07ec905') in 0.010395 seconds
+  Import took 0.017947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.433730 seconds.
+  path: Assets/itseez3d/avatar_sdk/samples_cloud/00_all_samples_cloud
+  artifactKey: Guid(dd07ccebf0bb97f4284e6b9a44099548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/samples_cloud/00_all_samples_cloud using Guid(dd07ccebf0bb97f4284e6b9a44099548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595cd7c409f6ed7212ebbc62087fddf7') in 0.011714 seconds
+  Import took 0.019249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.298184 seconds.
+  path: Assets/itseez3d/avatar_sdk/sdk_core
+  artifactKey: Guid(195e910dadcfbdd4ca70624682122f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/sdk_core using Guid(195e910dadcfbdd4ca70624682122f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13054a35ce129c9aee33712aae8171db') in 0.009520 seconds
+  Import took 0.017178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.998848 seconds.
+  path: Assets/itseez3d/avatar_sdk/3rdparty_licenses.txt
+  artifactKey: Guid(589f5e01abfc8de47bc5d6793e2e6984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/3rdparty_licenses.txt using Guid(589f5e01abfc8de47bc5d6793e2e6984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fdafc6ee4f5e63e7669741a3e2c2ca') in 0.032682 seconds
+  Import took 0.040164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.041114 seconds.
+  path: Assets/itseez3d/avatar_sdk/LICENSE.txt
+  artifactKey: Guid(a171013b83657fb46a2823ede634be87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/LICENSE.txt using Guid(a171013b83657fb46a2823ede634be87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2b44b348a06d313518c04bcff5d800') in 0.012410 seconds
+  Import took 0.018701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 723.343289 seconds.
+  path: Assets/itseez3d/avatar_sdk/samples_cloud/01_getting_started_sample_cloud/scenes/01_getting_started_sample_cloud.unity
+  artifactKey: Guid(7f76f4ee963c98f41a3581091560693c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/samples_cloud/01_getting_started_sample_cloud/scenes/01_getting_started_sample_cloud.unity using Guid(7f76f4ee963c98f41a3581091560693c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279c6e3fa67882eac81104a4e75eed0d') in 0.046959 seconds
+  Import took 0.154519 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020781 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.635 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.41 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.8 MB.
+System memory in use after: 171.3 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3568.
+Total: 15.254900 ms (FindLiveObjects: 0.880000 ms CreateObjectMapping: 0.432100 ms MarkObjects: 3.419300 ms  DeleteObjects: 10.520700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.434060 seconds.
+  path: Assets/itseez3d/DOCUMENTATION.txt
+  artifactKey: Guid(b5b8972fb05dd6f429cff21dfec0c85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/DOCUMENTATION.txt using Guid(b5b8972fb05dd6f429cff21dfec0c85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41aec6b16f2c4ef57a9cd1efd09d36b5') in 0.028223 seconds
+  Import took 0.037343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016948 seconds.
+  path: Assets/itseez3d/DOCUMENTATION.txt
+  artifactKey: Guid(b5b8972fb05dd6f429cff21dfec0c85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/DOCUMENTATION.txt using Guid(b5b8972fb05dd6f429cff21dfec0c85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41aec6b16f2c4ef57a9cd1efd09d36b5') in 0.003560 seconds
+  Import took 0.009811 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007358 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.634 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.12 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.43 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.9 MB.
+System memory in use after: 171.4 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3572.
+Total: 27.219000 ms (FindLiveObjects: 1.638700 ms CreateObjectMapping: 1.537700 ms MarkObjects: 7.056800 ms  DeleteObjects: 16.979700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27224.550045 seconds.
+  path: Assets/itseez3d/avatar_sdk/samples_cloud/07_fullbody_getting_strated_sample_cloud/scenes/07_fullbody_getting_started_sample_cloud.unity
+  artifactKey: Guid(de8ecc6b0bb46fc4eb2a92ab9b9c7bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/samples_cloud/07_fullbody_getting_strated_sample_cloud/scenes/07_fullbody_getting_started_sample_cloud.unity using Guid(de8ecc6b0bb46fc4eb2a92ab9b9c7bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc554e9505544109614df411ba8627a') in 1.171017 seconds
+  Import took 1.730042 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.132624 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.66 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 1.96 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.274 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 5.87 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.9 MB.
+System memory in use after: 171.4 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3576.
+Total: 48.768500 ms (FindLiveObjects: 4.342400 ms CreateObjectMapping: 1.589400 ms MarkObjects: 8.599500 ms  DeleteObjects: 34.233900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.678568 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.44 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.073 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.06 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.9 MB.
+System memory in use after: 171.4 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3580.
+Total: 28.008400 ms (FindLiveObjects: 1.059800 ms CreateObjectMapping: 0.570100 ms MarkObjects: 8.259700 ms  DeleteObjects: 18.116100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028532 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.91 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.41 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.796 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.70 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.0 MB.
+System memory in use after: 171.5 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3584.
+Total: 21.624900 ms (FindLiveObjects: 1.012900 ms CreateObjectMapping: 0.628100 ms MarkObjects: 7.652200 ms  DeleteObjects: 12.329300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 56009.479699 seconds.
+  path: Assets/itseez3d/avatar_sdk/samples_cloud/09_fullbody_export_sample_cloud/scenes/09_fullbody_export_sample_cloud.unity
+  artifactKey: Guid(27f578391b4f8e54fb4dd97b14fd31f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/samples_cloud/09_fullbody_export_sample_cloud/scenes/09_fullbody_export_sample_cloud.unity using Guid(27f578391b4f8e54fb4dd97b14fd31f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de10f399276bd961b74c91e9ee9a855') in 1.690421 seconds
+  Import took 2.296348 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020886 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.273 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.46 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.0 MB.
+System memory in use after: 171.5 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3588.
+Total: 11.114100 ms (FindLiveObjects: 0.630400 ms CreateObjectMapping: 0.382700 ms MarkObjects: 2.355100 ms  DeleteObjects: 7.744500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.749520 seconds.
+  path: Assets/itseez3d/avatar_sdk/samples_cloud/08_fullbody_parameters_sample_cloud/scenes/08_fullbody_parameters_sample_cloud.unity
+  artifactKey: Guid(c3dfe4422729e604598b649847f1c184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/samples_cloud/08_fullbody_parameters_sample_cloud/scenes/08_fullbody_parameters_sample_cloud.unity using Guid(c3dfe4422729e604598b649847f1c184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04801b26e557ac57b0d0488537c437ca') in 0.025481 seconds
+  Import took 0.035284 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020756 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.70 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.32 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.733 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.20 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.32 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.0 MB.
+System memory in use after: 171.6 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3592.
+Total: 24.790900 ms (FindLiveObjects: 1.201000 ms CreateObjectMapping: 1.387200 ms MarkObjects: 5.084600 ms  DeleteObjects: 17.111800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.218574 seconds.
+  path: Assets/itseez3d/avatar_sdk/samples_cloud/05_cartoonish_avatar_sample_cloud/scenes/05_cartoonish_avatar_sample_cloud.unity
+  artifactKey: Guid(79b4bce787292be4bacca16c7dd90aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/samples_cloud/05_cartoonish_avatar_sample_cloud/scenes/05_cartoonish_avatar_sample_cloud.unity using Guid(79b4bce787292be4bacca16c7dd90aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80b5af1ef325bb6338d7461de513779') in 0.042996 seconds
+  Import took 0.056015 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018522 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.99 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.267 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.23 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.1 MB.
+System memory in use after: 171.6 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3596.
+Total: 30.979800 ms (FindLiveObjects: 2.337900 ms CreateObjectMapping: 1.281100 ms MarkObjects: 7.472700 ms  DeleteObjects: 19.885100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.359203 seconds.
+  path: Assets/itseez3d/avatar_sdk/samples_cloud/07_fullbody_getting_strated_sample_cloud/scripts/FullbodyGettingStartedSample.cs
+  artifactKey: Guid(9f952cd139dfa234894d61e411b33d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/samples_cloud/07_fullbody_getting_strated_sample_cloud/scripts/FullbodyGettingStartedSample.cs using Guid(9f952cd139dfa234894d61e411b33d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c492955d856d559444c3035ea92d7010') in 0.019214 seconds
+  Import took 0.029462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019855 seconds.
+  path: Assets/itseez3d/avatar_sdk/samples_cloud/07_fullbody_getting_strated_sample_cloud/scripts/FullbodyGettingStartedSample.cs
+  artifactKey: Guid(9f952cd139dfa234894d61e411b33d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/samples_cloud/07_fullbody_getting_strated_sample_cloud/scripts/FullbodyGettingStartedSample.cs using Guid(9f952cd139dfa234894d61e411b33d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c492955d856d559444c3035ea92d7010') in 0.003761 seconds
+  Import took 0.012701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.055088 seconds.
+  path: Assets/itseez3d/avatar_sdk/sdk_cloud/scripts/utils/AsyncWebRequest.cs
+  artifactKey: Guid(3956d7fa3775d534ab42f15655b6711e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/sdk_cloud/scripts/utils/AsyncWebRequest.cs using Guid(3956d7fa3775d534ab42f15655b6711e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd7a000615e4ef24ae647a1bf05f74f') in 0.010289 seconds
+  Import took 0.020523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001475 seconds.
+  path: Assets/itseez3d/avatar_sdk/sdk_cloud/scripts/utils/AsyncWebRequest.cs
+  artifactKey: Guid(3956d7fa3775d534ab42f15655b6711e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/sdk_cloud/scripts/utils/AsyncWebRequest.cs using Guid(3956d7fa3775d534ab42f15655b6711e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd7a000615e4ef24ae647a1bf05f74f') in 0.003915 seconds
+  Import took 0.014255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.556517 seconds.
+  path: Assets/itseez3d/avatar_sdk/sdk_cloud/scripts/utils/MultipartBody.cs
+  artifactKey: Guid(af8499635779c444f9254434c0ee5b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/sdk_cloud/scripts/utils/MultipartBody.cs using Guid(af8499635779c444f9254434c0ee5b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2bfc2add0296cde182dc764ffc518e') in 0.012357 seconds
+  Import took 0.021229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.427264 seconds.
+  path: Assets/itseez3d/avatar_sdk/sdk_cloud/scripts/utils/StatusCode.cs
+  artifactKey: Guid(cbd3d93d1712c874d897616a36469e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/sdk_cloud/scripts/utils/StatusCode.cs using Guid(cbd3d93d1712c874d897616a36469e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42954e117c282311e1b7295b7a777820') in 0.013249 seconds
+  Import took 0.022294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.436878 seconds.
+  path: Assets/itseez3d/avatar_sdk/resources
+  artifactKey: Guid(883b65a73b3b494439f3d5666f723880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/resources using Guid(883b65a73b3b494439f3d5666f723880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20793a32ced65ebca6e0d5348ccc8335') in 0.013510 seconds
+  Import took 0.023293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.606753 seconds.
+  path: Assets/itseez3d/avatar_sdk/samples_cloud/00_all_samples_cloud/scenes/00_all_samples_cloud.unity
+  artifactKey: Guid(3905fc0e111fc2c4fa57c650d22c4720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/samples_cloud/00_all_samples_cloud/scenes/00_all_samples_cloud.unity using Guid(3905fc0e111fc2c4fa57c650d22c4720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a633b1c6d658386e9b09cc61b382c7') in 0.023356 seconds
+  Import took 0.032279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.338649 seconds.
+  path: Assets/itseez3d/avatar_sdk/samples_cloud/00_all_samples_cloud/scripts/AllSamplesCloud.cs
+  artifactKey: Guid(3d5e2d47935101340922c14a5c54bad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/samples_cloud/00_all_samples_cloud/scripts/AllSamplesCloud.cs using Guid(3d5e2d47935101340922c14a5c54bad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17c7e7f00cc74803231bc8f437e389e') in 0.010407 seconds
+  Import took 0.019558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002017 seconds.
+  path: Assets/itseez3d/avatar_sdk/samples_cloud/00_all_samples_cloud/scripts/AllSamplesCloud.cs
+  artifactKey: Guid(3d5e2d47935101340922c14a5c54bad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/itseez3d/avatar_sdk/samples_cloud/00_all_samples_cloud/scripts/AllSamplesCloud.cs using Guid(3d5e2d47935101340922c14a5c54bad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17c7e7f00cc74803231bc8f437e389e') in 0.003667 seconds
+  Import took 0.013789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.988324 seconds.
+  path: Assets/Scenes/Emerge.unity
+  artifactKey: Guid(78229d7f69a7c784cbbd2e315282afb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Emerge.unity using Guid(78229d7f69a7c784cbbd2e315282afb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d76963e355028cdade6c52a530d6c56') in 0.009952 seconds
+  Import took 0.019587 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.961775 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 7.25 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 1.54 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 15.692 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 3.51 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.1 MB.
+System memory in use after: 171.6 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3600.
+Total: 51.018500 ms (FindLiveObjects: 2.635200 ms CreateObjectMapping: 2.726400 ms MarkObjects: 17.287800 ms  DeleteObjects: 28.365800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.050752 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.31 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.336 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 7.95 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.86 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.2 MB.
+System memory in use after: 171.7 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3604.
+Total: 56.465600 ms (FindLiveObjects: 8.685000 ms CreateObjectMapping: 1.513300 ms MarkObjects: 10.005800 ms  DeleteObjects: 36.252400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032485 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.00 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.854 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.71 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.2 MB.
+System memory in use after: 171.7 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3608.
+Total: 18.377300 ms (FindLiveObjects: 0.848400 ms CreateObjectMapping: 0.587700 ms MarkObjects: 5.152600 ms  DeleteObjects: 11.782500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.693434 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.11 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.54 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.222 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.19 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.2 MB.
+System memory in use after: 171.8 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3612.
+Total: 16.705500 ms (FindLiveObjects: 0.987300 ms CreateObjectMapping: 0.399200 ms MarkObjects: 5.903000 ms  DeleteObjects: 9.413300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025476 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.674 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.45 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.3 MB.
+System memory in use after: 171.8 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3616.
+Total: 12.591000 ms (FindLiveObjects: 1.113500 ms CreateObjectMapping: 0.377700 ms MarkObjects: 2.610500 ms  DeleteObjects: 8.487200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031457 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.74 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.50 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.376 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.29 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.3 MB.
+System memory in use after: 171.8 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3620.
+Total: 19.853600 ms (FindLiveObjects: 1.042900 ms CreateObjectMapping: 0.637000 ms MarkObjects: 6.308400 ms  DeleteObjects: 11.862900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023799 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.772 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.20 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.3 MB.
+System memory in use after: 171.9 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3624.
+Total: 16.449300 ms (FindLiveObjects: 1.016600 ms CreateObjectMapping: 0.539500 ms MarkObjects: 5.126000 ms  DeleteObjects: 9.764700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018904 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.335 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.09 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.4 MB.
+System memory in use after: 171.9 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3628.
+Total: 12.578000 ms (FindLiveObjects: 0.965600 ms CreateObjectMapping: 0.363400 ms MarkObjects: 2.269100 ms  DeleteObjects: 8.978400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011164 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.69 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.268 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.05 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.4 MB.
+System memory in use after: 171.9 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3632.
+Total: 16.915600 ms (FindLiveObjects: 1.665100 ms CreateObjectMapping: 1.207000 ms MarkObjects: 3.482500 ms  DeleteObjects: 10.559200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010764 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.316 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.33 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.4 MB.
+System memory in use after: 172.0 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3636.
+Total: 17.480700 ms (FindLiveObjects: 0.828100 ms CreateObjectMapping: 0.412200 ms MarkObjects: 3.898900 ms  DeleteObjects: 12.339300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018936 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.19 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.64 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.933 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.40 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.5 MB.
+System memory in use after: 172.0 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3640.
+Total: 13.755300 ms (FindLiveObjects: 1.150300 ms CreateObjectMapping: 0.578200 ms MarkObjects: 3.737300 ms  DeleteObjects: 8.287500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023811 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.15 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.110 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.43 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.5 MB.
+System memory in use after: 172.0 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3644.
+Total: 14.014800 ms (FindLiveObjects: 0.971300 ms CreateObjectMapping: 0.636000 ms MarkObjects: 3.541100 ms  DeleteObjects: 8.864400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007815 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.33 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.034 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.28 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.5 MB.
+System memory in use after: 172.1 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3648.
+Total: 12.314400 ms (FindLiveObjects: 0.736200 ms CreateObjectMapping: 0.444800 ms MarkObjects: 2.932000 ms  DeleteObjects: 8.199900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020875 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.20 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.410 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 5.27 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.6 MB.
+System memory in use after: 172.1 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3652.
+Total: 29.632100 ms (FindLiveObjects: 1.076600 ms CreateObjectMapping: 0.379100 ms MarkObjects: 10.610700 ms  DeleteObjects: 17.562000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025937 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.29 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.335 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.6 MB.
+System memory in use after: 172.1 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3656.
+Total: 11.757500 ms (FindLiveObjects: 0.739400 ms CreateObjectMapping: 0.408100 ms MarkObjects: 2.578800 ms  DeleteObjects: 8.029800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018564 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.21 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.39 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.872 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.32 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 3437 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.6 MB.
+System memory in use after: 172.2 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3660.
+Total: 27.681700 ms (FindLiveObjects: 1.601300 ms CreateObjectMapping: 0.719100 ms MarkObjects: 9.574700 ms  DeleteObjects: 15.783100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021282 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.611 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.97 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 3443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.8 MB.
+System memory in use after: 172.4 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3670.
+Total: 13.899400 ms (FindLiveObjects: 0.998000 ms CreateObjectMapping: 0.795900 ms MarkObjects: 3.182600 ms  DeleteObjects: 8.921500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 15230.286221 seconds.
+  path: Assets/Davinci/Scripts
+  artifactKey: Guid(80c7be556956649f59a566705e1e5deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Davinci/Scripts using Guid(80c7be556956649f59a566705e1e5deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a34735231cc4bd0e0b8b5b39a3c94d3') in 0.019595 seconds
+  Import took 0.032520 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025480 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.470 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.55 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 3443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 172.4 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3674.
+Total: 14.536700 ms (FindLiveObjects: 1.086900 ms CreateObjectMapping: 0.493500 ms MarkObjects: 3.268300 ms  DeleteObjects: 9.686200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011720 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.501 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.54 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Unloading 3443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 172.4 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3678.
+Total: 23.179300 ms (FindLiveObjects: 1.031100 ms CreateObjectMapping: 0.874400 ms MarkObjects: 4.825800 ms  DeleteObjects: 16.445600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023660 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.05 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.328 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.26 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 3443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 172.5 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3682.
+Total: 17.081700 ms (FindLiveObjects: 0.937800 ms CreateObjectMapping: 0.467300 ms MarkObjects: 5.667100 ms  DeleteObjects: 10.007700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024976 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.10 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.55 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.409 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 3.23 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 3443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.0 MB.
+System memory in use after: 172.5 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3686.
+Total: 30.006900 ms (FindLiveObjects: 1.854700 ms CreateObjectMapping: 1.027900 ms MarkObjects: 5.859500 ms  DeleteObjects: 21.257500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008000 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.75 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.35 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.551 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.91 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
+Unloading 3443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.0 MB.
+System memory in use after: 172.5 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3690.
+Total: 23.820800 ms (FindLiveObjects: 1.067800 ms CreateObjectMapping: 1.681200 ms MarkObjects: 4.900300 ms  DeleteObjects: 16.168500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010436 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.423 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.31 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.0 MB.
+System memory in use after: 172.6 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3694.
+Total: 19.255900 ms (FindLiveObjects: 1.574800 ms CreateObjectMapping: 1.088700 ms MarkObjects: 3.591100 ms  DeleteObjects: 12.983000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007577 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.40 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.72 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.638 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.98 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 3443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.1 MB.
+System memory in use after: 172.6 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3698.
+Total: 21.291700 ms (FindLiveObjects: 1.076800 ms CreateObjectMapping: 0.754700 ms MarkObjects: 4.050700 ms  DeleteObjects: 15.405300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.984756 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.13 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.397 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.10 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 3443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.1 MB.
+System memory in use after: 172.6 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3702.
+Total: 20.388800 ms (FindLiveObjects: 1.469000 ms CreateObjectMapping: 0.645300 ms MarkObjects: 7.836000 ms  DeleteObjects: 10.436100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.770126 seconds.
+Begin MonoManager ReloadAssembly
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GlbAssetImporter and Siccity.GLTFUtility.GLBImporter are targeting the glb extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Scripted importers Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.Editor.GltfAssetImporter and Siccity.GLTFUtility.GLTFImporter are targeting the gltf extension, rejecting both.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.34 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.381 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.35 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 3443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.0 MB.
+System memory in use after: 172.5 MB.
+
+Unloading 2439 unused Assets to reduce memory usage. Loaded Objects now: 3706.
+Total: 20.270800 ms (FindLiveObjects: 1.359500 ms CreateObjectMapping: 0.453800 ms MarkObjects: 7.766600 ms  DeleteObjects: 10.688300 ms)
+
