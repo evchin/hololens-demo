@@ -11,9 +11,11 @@ using UnityEngine.Networking;
 public class LoadAvatar : MonoBehaviour
 {
     public SdkType sdkType;
+    private GameObject avatarObject = null;
+    public RuntimeAnimatorController controller;
+    public Avatar avatar;
     string photoPath;
     public TextMeshProUGUI progressText;
-    private GameObject avatarObject = null;
     protected IAvatarProvider avatarProvider = null;
     private IFullbodyAvatarProvider fullbodyAvatarProvider = null;
     private readonly string generatedHaircutName = "generated";
@@ -63,6 +65,17 @@ public class LoadAvatar : MonoBehaviour
         var avatarObject = GameObject.Find(AVATAR_OBJECT_NAME);
         Destroy(avatarObject);
         yield return StartCoroutine(GenerateAndDisplayHead(photoBytes, selectedPipelineType));
+        AnimateAvatar();
+    }
+
+    private void AnimateAvatar()
+    {
+        Transform skeleton = avatarObject.gameObject.transform.Find("skeleton");
+        Animator animator = skeleton.gameObject.AddComponent<Animator>();
+        animator.runtimeAnimatorController = controller;
+        animator.avatar = avatar;
+        animator.applyRootMotion = true;
+        AvatarController control = skeleton.gameObject.AddComponent<AvatarController>();
     }
 
     protected IEnumerator Await(params AsyncRequest[] requests)
@@ -138,16 +151,22 @@ public class LoadAvatar : MonoBehaviour
         // FullbodyAvatarLoader is used to display fullbody avatars on the scene.
         FullbodyAvatarLoader avatarLoader = new FullbodyAvatarLoader(AvatarSdkMgr.GetFullbodyAvatarProvider());
         yield return avatarLoader.LoadAvatarAsync(currentAvatarCode);
+        avatarLoader.AvatarGameObject.SetActive(false);
+        avatarLoader.AvatarGameObject.transform.position = new Vector3(0, -1.5f, 2.68f);
+        avatarLoader.AvatarGameObject.transform.eulerAngles = new Vector3(0, 180, 0);
         yield return avatarLoader.LoadOutfitAsync(outfitName);
 
         // Show "generated" haircut
-        var showHaircutRequest = avatarLoader.ShowHaircutAsync(generatedHaircutName);
-        yield return Await(showHaircutRequest);
         var showOutfitRequest = avatarLoader.ShowOutfitAsync(outfitName);
         yield return Await(showOutfitRequest);
 
+        var showHaircutRequest = avatarLoader.ShowHaircutAsync(generatedHaircutName);
+        yield return Await(showHaircutRequest);
+
+        avatarLoader.AvatarGameObject.SetActive(true);
         avatarObject = avatarLoader.AvatarGameObject;
         avatarObject.AddComponent<MoveByMouse>();
+        progressText.gameObject.SetActive(false);
     }
 
     private IEnumerator CheckIfFullbodyPipelineAvailable()
