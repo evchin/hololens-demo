@@ -1,5 +1,6 @@
 using ItSeez3D.AvatarSdk.Core;
 using ItSeez3D.AvatarSdkSamples.Core;
+using Newtonsoft.Json;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -12,17 +13,20 @@ public class LoadAvatar : MonoBehaviour
 {
     public SdkType sdkType;
     private GameObject avatarObject = null;
-    public RuntimeAnimatorController controller;
-    public Avatar avatar;
+    public Shader mrtkShader;
+    FullbodyAvatarLoader avatarLoader;
+    public AnimationManager facialAnimationManager;
+    public AnimationManager bodyAnimationManager;
     string photoPath;
-    public TextMeshProUGUI progressText;
+    public TextMeshPro progressText;
     protected IAvatarProvider avatarProvider = null;
     private IFullbodyAvatarProvider fullbodyAvatarProvider = null;
     private readonly string generatedHaircutName = "generated";
+    private readonly string generatedOutfitName = "outfit_1";
     PipelineType selectedPipelineType = PipelineType.FULLBODY;
     protected string currentAvatarCode = string.Empty;
     protected readonly string AVATAR_OBJECT_NAME = "Avatar";
-    string outfitName;
+    Info info;
 
     protected void OnEnable()
     {
@@ -34,8 +38,10 @@ public class LoadAvatar : MonoBehaviour
 
     private void Start() 
     {
-        outfitName = "outfit_1";
         photoPath = $"{Application.persistentDataPath}/Files/photo.jpg";
+        Debug.LogFormat("Current Skin Weights: {0}", QualitySettings.skinWeights);
+        QualitySettings.skinWeights = SkinWeights.FourBones;
+        Debug.LogFormat("New Skin Weights: {0}", QualitySettings.skinWeights); 
         StartCoroutine(Initialize());
         RenderingPipelineTraits.SetUpTheLighting();
         StartCoroutine(FetchAvatar());
@@ -43,18 +49,29 @@ public class LoadAvatar : MonoBehaviour
 
     IEnumerator FetchAvatar()
     {
-        yield return GetDataRequest("https://emergeholoapi.herokuapp.com/photo");
+        yield return GetPhoto("https://emergeholoapi.herokuapp.com/photo");
+        yield return GetInfo("https://emergeholoapi.herokuapp.com/info");
         byte[] bytes = File.ReadAllBytes(photoPath);
         yield return GenerateAvatarFunc(bytes);
     }
 
-    IEnumerator GetDataRequest(string api)
+    IEnumerator GetPhoto(string api)
     {   
         using (UnityWebRequest req = UnityWebRequest.Get(api))
         {
             req.downloadHandler = new DownloadHandlerFile(photoPath);
             yield return req.SendWebRequest();
+            if (req.result == UnityWebRequest.Result.ConnectionError || req.result == UnityWebRequest.Result.ProtocolError)
+                Debug.LogError($"{req.error}");
+        }
+    }
 
+    IEnumerator GetInfo(string api)
+    {   
+        using (UnityWebRequest req = UnityWebRequest.Get(api))
+        {
+            yield return req.SendWebRequest();
+            info = JsonConvert.DeserializeObject<Info>(req.downloadHandler.text);
             if (req.result == UnityWebRequest.Result.ConnectionError || req.result == UnityWebRequest.Result.ProtocolError)
                 Debug.LogError($"{req.error}");
         }
@@ -70,12 +87,11 @@ public class LoadAvatar : MonoBehaviour
 
     private void AnimateAvatar()
     {
-        Transform skeleton = avatarObject.gameObject.transform.Find("skeleton");
-        Animator animator = skeleton.gameObject.AddComponent<Animator>();
-        animator.runtimeAnimatorController = controller;
-        animator.avatar = avatar;
-        animator.applyRootMotion = true;
-        AvatarController control = skeleton.gameObject.AddComponent<AvatarController>();
+        facialAnimationManager.CreateAnimator(avatarLoader.GetBodyMeshObject());
+        bodyAnimationManager.CreateHumanoidAnimator(avatarObject, avatarLoader.GetBodyMeshObject().GetComponentInChildren<SkinnedMeshRenderer>());
+        AvatarController a = avatarObject.AddComponent<AvatarController>();
+        a.mrtkShader = mrtkShader;
+        // bodyAnimationManager.PlayCurrentAnimation();
     }
 
     protected IEnumerator Await(params AsyncRequest[] requests)
@@ -115,7 +131,6 @@ public class LoadAvatar : MonoBehaviour
         fullbodyAvatarProvider = AvatarSdkMgr.GetFullbodyAvatarProvider();
         avatarProvider = fullbodyAvatarProvider; 
         yield return Await(avatarProvider.InitializeAsync());
-        yield return CheckIfFullbodyPipelineAvailable();
     }
 
     protected IEnumerator GenerateAndDisplayHead(byte[] photoBytes, PipelineType pipeline)
@@ -128,14 +143,15 @@ public class LoadAvatar : MonoBehaviour
         FullbodyAvatarComputationParameters computationParameters = new FullbodyAvatarComputationParameters();
         // Request "generated" haircut to be computed.
         computationParameters.haircuts.names.Add(generatedHaircutName);
-        computationParameters.outfits.names.Add(outfitName);
+        computationParameters.outfits.names.Add(generatedOutfitName);
+        computationParameters.bodyShape.gender.Value = info.gender;
+        if (info.height > 0) computationParameters.bodyShape.height.Value = info.height;
+        if (info.weight > 0) computationParameters.bodyShape.weight.Value = info.weight;
 
         // Generate avatar from the photo and get its code in the Result of request
         var initializeRequest = fullbodyAvatarProvider.InitializeFullbodyAvatarAsync(photoBytes, computationParameters);
         yield return Await(initializeRequest);
         currentAvatarCode = initializeRequest.Result;
-
-        // StartCoroutine(SampleUtils.DisplayPhotoPreview(currentAvatarCode, photoPreview));
 
         // Wait avatar to be calculated
         var calculateRequest = fullbodyAvatarProvider.StartAndAwaitAvatarCalculationAsync(currentAvatarCode);
@@ -149,44 +165,50 @@ public class LoadAvatar : MonoBehaviour
         // yield return Await(retrievingOutfitRequest);
 
         // FullbodyAvatarLoader is used to display fullbody avatars on the scene.
-        FullbodyAvatarLoader avatarLoader = new FullbodyAvatarLoader(AvatarSdkMgr.GetFullbodyAvatarProvider());
+        avatarLoader = new FullbodyAvatarLoader(AvatarSdkMgr.GetFullbodyAvatarProvider());
         yield return avatarLoader.LoadAvatarAsync(currentAvatarCode);
         avatarLoader.AvatarGameObject.SetActive(false);
-        avatarLoader.AvatarGameObject.transform.position = new Vector3(0, -1.5f, 2.68f);
+        avatarLoader.AvatarGameObject.transform.position = new Vector3(0, -1.4f, 2.68f);
         avatarLoader.AvatarGameObject.transform.eulerAngles = new Vector3(0, 180, 0);
-        yield return avatarLoader.LoadOutfitAsync(outfitName);
+        yield return avatarLoader.LoadOutfitAsync(generatedOutfitName);
 
         // Show "generated" haircut
-        var showOutfitRequest = avatarLoader.ShowOutfitAsync(outfitName);
+        var showOutfitRequest = avatarLoader.ShowOutfitAsync(generatedOutfitName);
         yield return Await(showOutfitRequest);
 
         var showHaircutRequest = avatarLoader.ShowHaircutAsync(generatedHaircutName);
         yield return Await(showHaircutRequest);
 
-        avatarLoader.AvatarGameObject.SetActive(true);
+        Transform outfit = avatarLoader.AvatarGameObject.transform.Find(generatedOutfitName);
+        Transform haircut = avatarLoader.AvatarGameObject.transform.Find("haircut_generated");
+        Transform mesh = avatarLoader.AvatarGameObject.transform.Find("mesh");
+        SkinnedMeshRenderer hair_renderer = haircut.GetComponent<SkinnedMeshRenderer>();
+
+        outfit.GetComponent<SkinnedMeshRenderer>().quality = SkinQuality.Bone4;
+        mesh.GetComponent<SkinnedMeshRenderer>().quality = SkinQuality.Bone4;
+        hair_renderer.quality = SkinQuality.Bone4;
+        hair_renderer.sharedMaterial.shader = mrtkShader;
+        hair_renderer.sharedMaterial.SetFloat("_Mode", 2);
+
         avatarObject = avatarLoader.AvatarGameObject;
         avatarObject.AddComponent<MoveByMouse>();
+
+        // Transform hair = avatarObject.transform.Find("haircut_generated");
+        // hair.GetComponent<SkinnedMeshRenderer>().sharedMaterial.shader = mrtkShader;
+        
         progressText.gameObject.SetActive(false);
-    }
+        avatarLoader.AvatarGameObject.SetActive(true);
 
-    private IEnumerator CheckIfFullbodyPipelineAvailable()
-    {
-        // Fullbody avatars are available on the Pro plan. Need to verify it.
-        var pipelineAvailabilityRequest = avatarProvider.IsPipelineSupportedAsync(selectedPipelineType);
-        yield return Await(pipelineAvailabilityRequest);
-        if (pipelineAvailabilityRequest.IsError)
-            yield break;
-
-        if (pipelineAvailabilityRequest.Result == true)
-        {
-            progressText.text = string.Empty;
-        }
-        else
-        {
-            string errorMsg = "You can't generate fullbody avatars.\nThis option is available on the PRO plan.";
-            progressText.text = errorMsg;
-            progressText.color = Color.red;
-            Debug.LogError(errorMsg);
-        }
+        // HaircutAppearanceController hairController = hair.GetComponent<HaircutAppearanceController>();
+        // hairController.haircutMeshRenderer.sharedMaterial.shader = mrtkShader;
+        // hairController.haircutMeshRenderer.sharedMaterial.SetFloat("_Mode", 2);
     }
+}
+
+public struct Info
+{
+    // public AvatarAgeGroup ageGroup;
+    public AvatarGender gender;
+    public float height;
+    public float weight;
 }

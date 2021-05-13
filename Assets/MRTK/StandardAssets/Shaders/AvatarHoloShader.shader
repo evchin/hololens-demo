@@ -1,10 +1,4 @@
-// Copyright (c) Microsoft Corporation.
-// Licensed under the MIT License.
-
-// NOTE: MRTK Shaders are versioned via the MRTK.Shaders.sentinel file.
-// When making changes to any shader's source file, the value in the sentinel _must_ be incremented.
-
-Shader "Mixed Reality Toolkit/Standard"
+Shader "Custom/AvatarHoloShader"
 {
     Properties
     {
@@ -94,8 +88,8 @@ Shader "Mixed Reality Toolkit/Standard"
         _EnvironmentColorZ("Environment Color Z (RGB)", Color) = (0.0, 0.0, 1.0, 1.0)
 
         // Advanced options.
-        [Enum(RenderingMode)] _Mode("Rendering Mode", Float) = 0                                     // "Opaque"
-        [Enum(CustomRenderingMode)] _CustomMode("Mode", Float) = 0                                   // "Opaque"
+        [Enum(RenderingMode)] _Mode("Rendering Mode", Float) = 1                                     // "Opaque"
+        [Enum(CustomRenderingMode)] _CustomMode("Mode", Float) = 1                                   // "Opaque"
         [Enum(UnityEngine.Rendering.BlendMode)] _SrcBlend("Source Blend", Float) = 1                 // "One"
         [Enum(UnityEngine.Rendering.BlendMode)] _DstBlend("Destination Blend", Float) = 0            // "Zero"
         [Enum(UnityEngine.Rendering.BlendOp)] _BlendOp("Blend Operation", Float) = 0                 // "Add"
@@ -118,7 +112,7 @@ Shader "Mixed Reality Toolkit/Standard"
         Pass
         {
             Name "Main"
-            Tags{ "RenderType" = "Fade" "LightMode" = "ForwardBase" }
+            Tags{ "RenderType" = "Cutout" "LightMode" = "ForwardBase" }
             LOD 100
             Blend[_SrcBlend][_DstBlend]
             BlendOp[_BlendOp]
